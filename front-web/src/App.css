@@ -1,0 +1,20 @@
+.app-container {
+  padding: 10px 10px 50px 10px;
+}
+
+.sales-overview-container {
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 960px;
+}
+
+@media (min-width: 576px) {
+  .app-container {
+    padding: 40px 40px 60px 40px;
+  }
+
+  .sales-overview-container {
+    margin-top: 40px;
+  }
+}

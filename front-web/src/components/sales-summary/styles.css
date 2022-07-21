@@ -1,0 +1,38 @@
+.sales-summary-container {
+  padding: 40px 15px;
+}
+
+.sales-summary-data {
+  display: flex;
+  flex-direction: column;
+}
+
+.sales-summary-value {
+  margin: 0px;
+  padding: 0px;
+  font-size: 36px;
+  color: var(--title-color);
+}
+
+.sales-summary-value-label {
+  font-size: 18px;
+  color: var(--ligh-color);
+  display: block;
+}
+
+.sales-summary-chart {
+  margin-top: 40px;
+}
+
+@media (min-width: 992px) {
+  .sales-summary-data {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .sales-summary-chart {
+    margin-top: 0px;
+    margin-right: 80px;
+  }
+}
